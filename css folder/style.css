@@ -27,4 +27,7 @@ p:first-child {
 }
 input:focus {
     background-color: yellow;
-  }
+}
+p:only-child{
+    background-color: black;
+}
