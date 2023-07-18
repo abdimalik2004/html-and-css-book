@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdimalik test one </title>
+    <style>
+        th,td{
+            padding: 10px;
+            border: 1px solid #333;
+        }
+        video{
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <p>Abdimalik</p>
+    <form method="POST">
+    <label> Name: <input type="text" name="username" placeholder="Your username" required/></label> <br>
+    <label>Email: <input type="email" name="email" placeholder="your email" required> </label> <br>
+    <label>Pswrd: <input type="password" name="password" placeholder="your password" required></label> <br> <br>
+    <input type="hidden" name="some-hidden-filed" value="soma-value">
+    <a href="https://www.google.com/"> <input type="button" value="Guji halkan"></a>
+    <input type="reset">  <br> <br>
+    <hr>
+    <label>yellow</label><input type="radio" name="color" value="yellow" /> <br>
+    <label>red</label><input type="radio" name="color" value="red" /> <br>
+    <label>blue</label> <input type="radio" name="color" value="blue" /> <br>
+    <label>B.D.T <input type="date" name="birthdate"></label> <br>
+    <input type="datetime-local" name="date-and-time" /> <br>
+    <input type="week" name="choose-week" /> <br>
+    <input type="month" name="choose-release-month" /> <br>
+    <input type="color" name="car-color" /> <br>
+    <input type="color" name="car-color" value="#000000" /> <br>
+    <input type="range" name="age" min="0" max="100" value="30" /> <br>
+    <input type="range" name="age" min="0" max="100" value="30" step="10" /> <br>
+    <input type="tel" name="telephone-number" /> <br> <br>
+    <input type="tel" pattern="[0-9]{3}-[0-9]{8}" name="telephone-number" /> <br> <br>
+    </form>
+    <textarea rows="10" cols="20"></textarea> <br> <br>
+    <hr>
+    <select name="color" id="">
+        <option value="yellow"> yellow</option>
+        <option value="red">red</option>
+        <option value="black" disabled>black</option>
+        <option value="">None</option>
+    </select>
+    <hr>
+    <select name="color">
+        <optgroup label="Primary">
+        <option value="red">Red</option>
+        <option value="yellow">Yellow</option>
+        <option value="blue">Blue</option>
+        </optgroup>
+        <optgroup label="Others">
+        <option value="green">Green</option>
+        <option value="pink">Pink</option>
+        </optgroup>
+    </select>
+    <table>
+        <tr>
+            <th>colo 1</th>
+            <th>colo 2</th>
+        </tr>
+        <tr>
+            <td>r1 col1</td>
+            <td>r2 col2</td>
+        </tr>
+    </table> <br>
+    <hr>
+    <table>
+ <tr>
+ <th>Column 1</th>
+ <th>Column 2</th>
+ <th>Column 3</th>
+ </tr>
+ <tr>
+ <td colspan="2">Row 1 Columns 1-2</td>
+ <td>Row 1 Column 3</td>
+ </tr>
+ <tr>
+ <td colspan="3">Row 2 Columns 1-3</td>
+ </tr>
+</table> <br>
+<hr>
+<table>
+ <caption>
+ Dogs age
+ </caption>
+ <tr>
+ <th>Dog</th>
+ <th>Age</th>
+ </tr>
+ <tr>
+ <td>Roger</td>
+ <td>7</td>
+ </tr>
+</table> <br>
+<hr>
+<audio src="html folder/111.mp3"  controls type="audio/mpeg" loop muted></audio> <br> <br>
+<video src="loading_bar.mp4" controls poster="png-clipart-poster-template-poster-template-blue-and-green-angle-other-thumbnail.png" muted></video> <br>
+<hr>
+ <figure>
+    <img src="download.png" alt="Somali flag" width="200px" height="100px">
+    <figcaption>the is Somali flag</figcaption>
+</figure> <br>
+<hr>
+<div role="navigation">
+<nav>
+    <ul>
+    <li><a href="home.html" target="_blank">Home</a></li>
+    <li><a href="about.html" target="_blank">About</a></li>
+    </ou>
+</nav>
+</div>
+</body>
+</html>
